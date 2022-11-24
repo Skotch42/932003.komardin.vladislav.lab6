@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Task №6</title>
+    <style>
+
+        body 
+        {
+            font-family: sans-serif;
+            font-size: 18px;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        main 
+        {
+            flex-direction: column;
+            font-size: 18px;
+            display: flex;
+            width: 70%;
+            height: 70%;
+            margin: 0 auto;
+        }
+
+        .buttons 
+        {
+            width: 100%;
+            display: flex;
+        }
+
+        button 
+        {
+            background-color: red;
+            color: white;
+            font-size: 18px;
+            flex-grow: 1;
+            border: 2px solid black;
+            padding: 8px;
+        }
+
+        .pic 
+        {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            width: 96%;
+            margin: 10px;
+        }
+
+        .leftpic 
+        {
+            background-color: blue;
+            float: left;
+        }
+
+        .rightpic 
+        {
+            background-color: green;
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+
+    <main>
+
+        <div class="buttons">
+
+            <button class="left">Левая колонка</button>
+            <button class="mid">Обе две</button>
+            <button class="right">Правая колонка</button>
+
+        </div>
+
+        <div class="pic">
+
+            <div class="leftpic"><img src="cat.jpg"></div>
+            <div class="rightpic"><img src="dog.jpg"></div>
+
+        </div>
+
+    </main>
+
+    <script src="Lab6.js"></script>
+
+</body>
+</html>
